@@ -1,0 +1,36 @@
+{
+    "name": "oli/integration",
+    "description": "Módulo para integração Oli Live-shop",
+    "require": {
+        "php": "~7.1.3||~7.2.0",
+        "magento/module-composer-installer": "*"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name":"Oli Live",
+            "email":"contato@oli.live"
+        }
+    ],
+    "license": [
+        "proprietary"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Magento\\Integration\\": ""
+        }
+    },
+    "extra": {
+        "map": [
+            [
+                "*",
+                "Oli/Integration"
+            ]
+        ]
+    }
+    
+}
